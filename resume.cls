@@ -147,6 +147,8 @@
 
 % usage: \datedEntry{<name>}{<short description>}{<time>}{<description>}
 \newcommand\datedEntry[4]{
-  \item \textbf{#1}~{\small (#2)} \hfill #3 \newline
-  #4
+  \item \textbf{#1}~{\small (#2)} \hfill #3
+  \ifthenelse{\isempty{#4}}
+    {}
+    {\newline #4}
 }
