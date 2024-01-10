@@ -17,10 +17,14 @@
 }
 
 #let ghrepo(
-  repo, add_link: true
+  repo, add_link: true, icon: true
 ) = {
   if add_link {
-    iconlink("https://github.com/" + repo, text: repo, icon: github)
+    if icon {
+      iconlink("https://github.com/" + repo, text: repo, icon: github)
+    } else {
+      link("https://github.com/" + repo)[#repo]
+    }
   } else {
     [#fa[#icon] #repo]
   }
