@@ -12,7 +12,7 @@
 
 #cventry(
   tl: "Nanjing University (NJU)",
-  tr: "2023/09 - 2026/06 (expected)",
+  tr: "2023.09 - 2026.06 (expected)",
   bl: "Master of Computer Science and Technology",
   br: "Nanjing, China"
 )[
@@ -21,13 +21,25 @@
 ]
 #cventry(
   tl: "Beihang University (BUAA)",
-  tr: "2019/09 - 2023/06",
+  tr: "2019.09 - 2023.06",
   bl: "Bachelor of Computer Science and Technology",
   br: "Beijing, China"
 )[
   - GPA 3.84/4.00. National Scholarship 2022 (Top 0.2% national-wide). Outstanding Graduate of BUAA.
   - Won the First Price of #link("https://compiler.educg.net")[NSCSCC Compilation System Design Competition] 2021, ranking 2nd.
   - Teaching Assistant: _Programming in Practice_ (Fall 2020), _Object-oriented Design and Construction_ (Fall 2021, Spring 2022).
+]
+
+== Research
+
+#cventry(
+  tl: "A lightweight edge-side compiler for neural network operators",
+  tr: ghrepo("roife/llvm-lite", icon: true),
+  bl: "Undergraduate thesis project",
+  br: "BUAA, 2022.06 - 2023.05"
+)[
+  - An independently implemented lightweight edge-side compiler and trimming work on the LLVM codegen module.
+  - Using shape information at the edge-side device to perform secondary optimization on offline compiled LLVM IR format neural network operators, to reduce the temporal and spatial overhead during operator runtime.
 ]
 
 == Projects
