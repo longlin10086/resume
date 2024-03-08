@@ -82,8 +82,9 @@
 
     - *编程语言*：不限于特定语言。尤其精通 C, C++, Java, Rust, Swift, Python, Javascript, Ruby, (System-)Verilog。
     - *程序语言理论*：了解类型系统、形式语义和形式验证相关知识。
-    - *编译器*和*程序分析*：精通编译优化、语法解析器和解释器开发；对 LLVM 有一定了解。
-    - *IDE 工具*：熟悉基于 LSP 的 IDE 开发，尤其熟悉 rust-analyzer 的架构，熟悉基于增量计算的 IDE 架构。
+    - *编译器*：了解编译优化以及多种程序表示方式（如 SSA 等）；熟悉语法解析器和解释器开发；对 LLVM 有一定了解。
+    - *IDE 构建*：熟悉基于 LSP 的 IDE 开发，尤其熟悉 rust-analyzer 的架构，熟悉基于增量计算的 IDE 架构。
+    - *程序分析*：熟悉静态分析算法（如指针分析，IDFS 等）；熟悉 Java 上的程序分析。
     - *Web 与移动开发*：全栈。能够熟练使用 Vue、Rails、Docker、PostgreSQL、Redis 等技术进行 web 开发；了解 SwiftUI。
     - *开发环境*：熟悉 Emacs；习惯在 macOS 和 Linux 环境下工作；能熟练使用 AI 提高工作效率。
 

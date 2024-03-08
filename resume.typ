@@ -82,10 +82,11 @@
 
     - *Programming Languages*: Not limited to specific language. Especially proficient in C, C++, Java, Rust, Swift, Python, Javascript, Ruby, (System)Verilog.
     - *PL Theory*: Familiar with type systems, formal semantics and formal verification.
-    - *Compiler* & *Program Analysis*: Proficient in compilation optimizations, parsers and interpreters development; knowledgeable about LLVM. Proficient in static analysis with a focus on Java.
-    - *IDE Tooling*: Knowledgeable in LSP-based IDE development, especially familiar with rust-analyzer; familiar with IDE architecture based on incremental computation.
+    - *Compiler*: Proficient in compilation optimizations and various program representations such as SSA. Familiar with parsers and interpreters development; knowledgeable about LLVM.
+    - *IDE*: Knowledgeable in IDE architecture based on incremental computation, especially familiar with rust-analyzer; proficient in language server protocol.
+    - *Program Analysis*: Familiar with static analysis algorithm such as pointer analysis, IDFS, etc; proficient in analysis on Java.
     - *Web & Mobile*: Full-stack. Skilled in Vue, Rails, Docker, PostgreSQL, Redis; familiar with SwiftUI.
-    - *Developing Environment*: Proficient in Emacs; comfortable working in macOS and Linux; skilled in leveraging AI.
+    - *Tools*: Proficient in Emacs; comfortable working in macOS and Linux; skilled in leveraging AI.
 
   == Misc
 
