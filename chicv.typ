@@ -40,7 +40,7 @@
 ) = {
     block(
         inset: (left: 0pt),
-        strong(tl) + " " + tl_comments + h(1fr) + tr +
+        text(weight: "bold", size: 11pt)[#tl] + tl_comments + h(1fr) + tr +
         linebreak() +
         if bl != "" or br != "" {
             bl + h(1fr) + br + linebreak()
@@ -67,7 +67,7 @@
     show heading.where(
         level: 2
     ): it => text(
-        size: 12pt,
+        size: 13pt,
         font: fonts,
         weight: "bold",
         block(
@@ -79,7 +79,6 @@
     show link: it => underline(offset: 2pt, it)
     set page(margin: (x: 0.9cm, y: 1.3cm),)
     set par(justify: true)
-    set block(spacing: 0.8em)
     set text(font: fonts, size: 10pt)
 
     body
