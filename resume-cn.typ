@@ -28,19 +28,6 @@
         - 助教：_程序设计基础_（2020 秋），_面向对象的设计与构建_（2021 秋，2022 春）。
     ]
 
-  == 研究经历
-
-    #cventry(
-        tl: [LLVM-Lite],
-        tl_comments: [，一个面向深度学习神经网络算子的轻量级端侧编译器。],
-        tr: ghrepo("roife/llvm-lite", icon: true),
-        bl: [_个人项目_，北航本科毕业设计，受华为资助],
-        br: [2022.06 - 2023.05]
-    )[
-        - 开发了一款针对端侧设备的轻量级 LLVM-IR 编译器，对 LLVM 代码生成模块进行了裁剪以减小其内存占用。
-        - 利用端侧设备的算子形状信息对 LLVM-IR 格式神经网络操作符进行二次优化，以减少运行时的时间和空间开销。
-    ]
-
   == 项目开发
 
     #cventry(
@@ -48,9 +35,18 @@
         tl_comments: [，面向硬件开发的现代化 Verilog/SV IDE。],
         tr: [（开发中）],
     )[
-        - _主要开发者_。设计了 IDE 的架构并在上面实现了 Verilog/SV 的语义分析。
+        - （实验室项目）*主要开发者*，设计了 IDE 的架构并在上面实现了 Verilog/SV 的语义分析。
         - 利用*增量计算*架构实现了实时低延迟的增量语法解析以及语义分析
         - 基于语言服务器协议（language server protocol），并在此基础上实现了代码补全、跳转、重构等功能。
+    ]
+
+    #cventry(
+        tl: [LLVM-Lite],
+        tl_comments: [，一个面向深度学习神经网络算子的轻量级端侧编译器。],
+        tr: ghrepo("roife/llvm-lite", icon: true),
+    )[
+        - （实验室项目，华为横向）*独立完成*，本科毕业设计项目。
+        - 利用端侧设备的算子形状信息对 LLVM-IR 格式神经网络操作符进行二次优化，以减少算子运行时的时间和空间开销。
     ]
   
     #cventry(
@@ -58,7 +54,7 @@
         tl_comments: [，为北航《航空航天概论》课程设计的教育应用。],
         tr: ghrepo("Caniformia", icon: true),
     )[
-        - _合作者_。参与了基于 SwiftUI 的 iOS 应用开发以及基于 Ruby on Rails 的 web 后端开发。
+        - （合作项目）*合作开发*，参与了基于 SwiftUI 的 iOS 应用开发以及基于 Ruby on Rails 的 Web 后端开发。
     ]
 
     #cventry(

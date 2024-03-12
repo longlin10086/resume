@@ -28,19 +28,6 @@
         - Teaching Assistant for _Programming in Practice_ (Fall 2020), _Object-oriented Design and Construction_ (Fall 2021, Spring 2022).
     ]
 
-  == Research
-
-    #cventry(
-        tl: [LLVM-Lite],
-        tl_comments: [, a lightweight edge-side compiler for neural network operators.],
-        tr: ghrepo("roife/llvm-lite", icon: true),
-        bl: [_Personal project_ for undergraduate thesis at BUAA, funded by Huawei.],
-        br: [2022.06 - 2023.05],
-    )[
-        - Developed a lightweight compiler for LLVM IR on edge devices, with trimming works to the LLVM codegen module.
-        - Utilizing shape information on edge device to perform secondary optimizations on offline-compiled LLVM IR format neural network operators, to reduce the temporal and spatial overhead during operator runtime.
-    ]
-
   == Projects
 
     #cventry(
@@ -51,6 +38,15 @@
         - (_Lab Project_) *Primary Developer*, designed the architecture of the IDE and implemented semantic analysis on Verilog/SV.
         - Enabling real-time low-latency parsing and semantic analysis through *incremental computation*.
         - Based on language server protocol to provide features like code navigation, refactoring, code completion, etc..
+    ]
+
+    #cventry(
+        tl: [LLVM-Lite],
+        tl_comments: [, a lightweight edge-side LLVM IR compiler for neural network operators.],
+        tr: ghrepo("roife/llvm-lite", icon: true),
+    )[
+        - (_Lab project_, funded by Huawei) *Independently Developed* for my undergraduate thesis.
+        - Utilizing shape information to perform secondary optimizations on offline-compiled LLVM IR format neural network operators, to reduce the temporal and spatial overhead during operator runtime.
     ]
   
     #cventry(
