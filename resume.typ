@@ -23,7 +23,7 @@
         tr: [2019.09 - 2023.06],
         bl: [Bachelor’s Degree in Computer Science and Technology],
     )[
-        - GPA: 3.84/4.00. Awarded the *National Scholarship* 2022 and named *Outstanding Graduate of BUAA*.
+        - GPA 3.84/4.00. Awarded the *National Scholarship* 2022 (top 0.2% national-wide) and *Outstanding Graduate of BUAA*.
         - Won *the First Prize* in the #link("https://compiler.educg.net")[NSCSCC Compilation System Design Competition] 2021, ranking 2nd overall.
         - Teaching Assistant for _Programming in Practice_ (Fall 2020), _Object-oriented Design and Construction_ (Fall 2021, Spring 2022).
     ]
@@ -35,9 +35,8 @@
         tl_comments: [, a modern Verilog/SV IDE for hardware development.],
         tr: [(In development)],
     )[
-        - (_Lab Project_) *Primary Developer*, designed the architecture of the IDE and implemented semantic analysis on Verilog/SV.
-        - Enabling real-time low-latency parsing and semantic analysis through *incremental computation*.
-        - Based on language server protocol to provide features like code navigation, refactoring, code completion, etc..
+        - (_Lab Project_) *Project Leader* and *Primary Developer*, designed the architecture and IRs, and implemented most of features.
+        - Enabling real-time parsing and program analysis through *incremental computation* to provide features like code navigation, refactoring, code completion, etc..
     ]
 
     #cventry(
@@ -45,8 +44,8 @@
         tl_comments: [, a lightweight edge-side LLVM IR compiler for neural network operators.],
         tr: ghrepo("roife/llvm-lite", icon: true),
     )[
-        - (_Lab project_, funded by Huawei) *Independently Developed* for my undergraduate thesis.
-        - Utilizing shape information to perform secondary optimizations on offline-compiled LLVM IR format neural network operators, to reduce the temporal and spatial overhead during operator runtime.
+        - (_Lab project_, funded by Huawei) *Independently Designed and Developed* for my undergraduate thesis.
+        - Utilizing shape information of neural network operators to perform secondary optimizations on offline-compiled LLVM IR, to reduce the temporal and spatial overhead during operator runtime.
     ]
   
     #cventry(
@@ -60,16 +59,18 @@
      #cventry(
         tl: [Open-source contributions],
     )[
-        #ghrepo("rust-lang/rust-analyzer", icon: false) (active), #ghrepo("rust-lang/rust-clippy", icon: false), #ghrepo("moonbitlang/tree-sitter-moonbit", icon: false), #ghrepo("yuin/goldmark", icon: false), #ghrepo("doomemacs/doomemacs", icon: false) and #link("https://github.com/roife")[more on GitHub]
+        - Rust-lang: #ghrepo("rust-lang/rust-analyzer", icon: true), #ghrepo("rust-lang/rust-clippy", icon: true), #ghrepo("rust-lang/rustup", icon: true);
+        - LLVM Foundation: #ghrepo("llvm/llvm-project", icon: true), #ghrepo("clangd/vscode-clangd", icon: true), #ghrepo("llvm/clangd-www", icon: true);
+        - #ghrepo("moonbitlang/tree-sitter-moonbit", icon: true), #ghrepo("yuin/goldmark", icon: true), #ghrepo("doomemacs/doomemacs", icon: true) and #link("https://github.com/roife")[more on my GitHub].
     ]
 
   == Skills
 
-    - *Programming Languages*: Not limited to specific language. Especially proficient in C, C++, Java, Rust, Python, Verilog/SV. Comfortable with Ruby, Swift, JavaScript, OCaml, Coq, Haskell, etc.
-    - *PL Theory*: Familiar with type systems, formal semantics and formal verification.
+    - *Programming Languages*: Not limited to specific language. Especially proficient in C, C++, Java, Rust, Python, Verilog/SystemVerilog. Comfortable with Ruby, Swift, JavaScript, OCaml, Coq, Haskell, etc.
+    - *PL Theory*: Familiar with type system, formal semantics and formal verification.
     - *Compiler*: Proficient in compilation optimizations and various program representations such as SSA, etc. Familiar with parsers and interpreters development; knowledgeable about LLVM.
-    - *IDE*: Knowledgeable in IDE based on incremental computation, especially familiar with rust-analyzer; proficient in LSP.
-    - *Program Analysis*: Familiar with static analysis algorithm such as pointer analysis, IDFS, etc; proficient in analysis on Java.
+    - *IDE*: Knowledgeable in IDE based on LSP and incremental computation, especially familiar with rust-analyzer and clangd.
+    - *Program Analysis*: Familiar with static analysis algorithm such as pointer analysis, IFDS, etc; proficient in analysis on Java.
     - *Web & Mobile*: Full-stack. Skilled in Vue, RoR, Docker, PostgreSQL, Redis; familiar with SwiftUI.
     - *Tools*: Proficient in Emacs; comfortable working in macOS and Linux; skilled in leveraging AI.
 
