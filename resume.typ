@@ -16,7 +16,7 @@
         bl: [Master's Degree in Computer Science and Technology],
     )[
         - Member of #link("https://pascal-lab.net")[Pascal Research Group], focus on PL and program analysis.
-        - Teaching Assistant for _Principles and Techniques of Compilers_ (Spring 2024)
+        - TA for _Principles and Techniques of Compilers_ (Spring 2024)
     ]
     #cventry(
         tl: [Beihang University],
@@ -25,7 +25,7 @@
     )[
         - GPA 3.84/4.00. Awarded the *National Scholarship* 2022 (top 0.2% national-wide) and *Outstanding Graduate of BUAA*.
         - Won *the First Prize* in the #link("https://compiler.educg.net")[NSCSCC Compilation System Design Competition] 2021, ranking 2nd overall.
-        - Teaching Assistant for _Programming in Practice_ (Fall 2020), _Object-oriented Design and Construction_ (Fall 2021, Spring 2022).
+        - TA for _Programming in Practice_ (Fall 2020), _Object-oriented Design and Construction_ (S.T.A.R, Fall 2021, Spring 2022).
     ]
 
   == Projects
@@ -59,8 +59,8 @@
      #cventry(
         tl: [Open-source contributions],
     )[
-        - Rust-lang: #ghrepo("rust-lang/rust-analyzer", icon: true), #ghrepo("rust-lang/rust-clippy", icon: true), #ghrepo("rust-lang/rustup", icon: true);
-        - LLVM Foundation: #ghrepo("llvm/llvm-project", icon: true), #ghrepo("clangd/vscode-clangd", icon: true), #ghrepo("llvm/clangd-www", icon: true);
+        - Rust-lang: #ghrepo("rust-lang/rust-analyzer", icon: true), #ghrepo("rust-lang/rust-clippy", icon: true), #ghrepo("rust-lang/rustup", icon: true) ;
+        - LLVM Foundation: #ghrepo("llvm/llvm-project", icon: true), #ghrepo("clangd/vscode-clangd", icon: true), #ghrepo("llvm/clangd-www", icon: true) ;
         - #ghrepo("moonbitlang/tree-sitter-moonbit", icon: true), #ghrepo("yuin/goldmark", icon: true), #ghrepo("doomemacs/doomemacs", icon: true) and #link("https://github.com/roife")[more on my GitHub].
     ]
 
