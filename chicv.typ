@@ -40,7 +40,7 @@
 ) = {
     block(
         inset: (left: 0pt),
-        text(weight: "bold", size: 11pt)[#tl] + tl_comments + h(1fr) + tr +
+        text(weight: "bold")[#tl] + tl_comments + h(1fr) + tr +
         linebreak() +
         if bl != "" or br != "" {
             bl + h(1fr) + br + linebreak()
@@ -59,7 +59,7 @@
     show heading.where(
         level: 1
     ): set text(
-        size: 22pt,
+        size: 23pt,
         font: fonts,
         weight: "light",
     )
@@ -67,7 +67,7 @@
     show heading.where(
         level: 2
     ): it => text(
-        size: 13pt,
+        size: 12pt,
         font: fonts,
         weight: "bold",
         block(
