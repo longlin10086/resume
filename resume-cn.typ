@@ -48,6 +48,16 @@
     ]
 
     #cventry(
+         tl: "HITSZ-Login-Panel",
+         tl_comments: [ · 学校系统登录界面],
+         bl: "个人项目，一个整洁美观的登录界面",
+         tr: ghrepo("longlin10086/HITSZ-GPT-Panel-LoginPage", icon: true),
+     )[
+         - 使用原生 Vue3 编写，采用单文件组件架构组织项目；
+         - 响应式布局，能同时满足桌面端和移动端的需求。
+    ]
+
+    #cventry(
          tl: "KindomCard",
          tl_comments: [ · 三国杀游戏的简易实现。],
          bl: "合作项目，创新训练课 B 课设",
@@ -83,7 +93,7 @@
       columns: (auto, auto),
       rows: (auto, auto, auto, auto, auto),
       gutter: 7pt,
-      [*编程语言*], grid_par[不限于特定语言。C, C++, Python 使用较多，轻微使用过 Java, JavaScript 。],
+      [*编程语言*], grid_par[不限于特定语言。C, C++, Python 使用较多，轻微使用过 Java, JavaScript, Vue3 。],
       [*开发工具*], grid_par[Docker, Git/GitHub, Nginx, ROS2, Vim],
       [*开发环境*], grid_par[可以使用 Windows, macOS 和 Linux 环境工作；能熟练使用 AI 提高工作效率；习惯使用优质搜索引擎如： Google, Bing 。]
   )
