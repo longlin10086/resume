@@ -8,7 +8,7 @@
   #fa[#envelope] gnulonglin\@gmail.com |
   #fa[#github] #link("https://github.com/longlin10086")[longlin] |
   #fa[#globe] #link("https://blog.longlin.tech/")[longlin's Blog] |
-  #fa[#location-arrow] 深圳
+  #fa[#location-arrow] 深圳，广州
 
   == 教育背景
 
